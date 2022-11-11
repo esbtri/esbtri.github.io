@@ -6,9 +6,11 @@ body {
 }
 
 .stream { 
+  margin: auto;
   margin-top: 20px;
   width: 100%;
   aspect-ratio: 16 / 9;
+  max-height: 700px;
 }
 
 .menu {
@@ -18,7 +20,7 @@ body {
   flex-wrap: wrap;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .button {
@@ -56,6 +58,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+  .menu {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 .title {
@@ -65,20 +71,24 @@ body {
   font-size: 32px;
   display: none;
 }
+.footer {
+  height: 20px;
+}
 
 /* Large */
 .containerAll {
+  margin-top: 20px;
   display: flex;
   gap: 20px 20px;
   flex-wrap: wrap;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
 }
-.streamAllAll {
-  width: 49%;
-  height: 400px;
+.streamAll {
+  width: 32%;
+  aspect-ratio: 16 / 9;
   border: 1px white solid;
-  margin: auto; 
 }
 
 /* Medium screens */
