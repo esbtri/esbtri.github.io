@@ -21,7 +21,7 @@ body {
 .bigText {
   margin: auto;
   margin-top: 30px;
-  padding: 20px;
+  padding: 0 20px 0 20px;
   max-width: 300px;
   font-size:x-large;
 }
@@ -29,7 +29,7 @@ body {
 .text {
   margin: auto;
   margin-top: 30px;
-  padding: 20px;
+  padding: 0 20px 0 20px;
   max-width: 300px;
   font-size: large;
 }
