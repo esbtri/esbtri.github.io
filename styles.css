@@ -71,8 +71,15 @@ body {
   font-size: 32px;
   display: none;
 }
+
 .footer {
-  height: 20px;
+  margin-top: 20px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-image: url(./assets/logo-esb.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Large */
@@ -86,7 +93,7 @@ body {
   justify-content: center;
 }
 .streamAll {
-  width: 32%;
+  width: 30%;
   aspect-ratio: 16 / 9;
   border: 1px white solid;
 }
