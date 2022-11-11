@@ -45,7 +45,7 @@ body {
   flex-wrap: wrap;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .button {
@@ -82,9 +82,6 @@ body {
   .logo {
     background-position: center;
     background-repeat: no-repeat;
-  }
-  .menu {
-    justify-content: center;
   }
 }
 
