@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stream { 
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.menu {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.button {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 7px;    
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(219, 216, 216);
+  color: red;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.logo {
+  background-image: url(./assets/logo-cba.png);
+  height: 100px;
+}
+
+.title {
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 32px;
+  display: none;
+}
+
+/* Large */
+.containerAll {
+  display: flex;
+  gap: 20px 20px;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.streamAllAll {
+  width: 49%;
+  height: 400px;
+  border: 1px white solid;
+  margin: auto; 
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .containerAll {
+    flex-direction: column;
+  }
+  .streamAll {
+    width: 99%;
+  }
+}
