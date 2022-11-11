@@ -33,7 +33,7 @@ body {
 }
 
 .qr {
-  margin:20px 50px 0 50px;
+  margin-top:20px;
 }
 
 .menu {
@@ -82,7 +82,6 @@ body {
     background-repeat: no-repeat;
   }
   .menu {
-    width: 100%;
     justify-content: center;
   }
 }
