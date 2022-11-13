@@ -59,6 +59,10 @@ body {
   margin: 10px;
   border-radius: 7px;    
   cursor: pointer;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
 
 .selected {
